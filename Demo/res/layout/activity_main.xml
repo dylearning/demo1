@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:topbar="http://schemas.android.com/apk/res/com.android.demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <com.android.demo.widget.TopBar
+    android:id="@+id/topbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    topbar:titleText="@string/app_name"
+    topbar:rightVisibility="visible"/>  
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

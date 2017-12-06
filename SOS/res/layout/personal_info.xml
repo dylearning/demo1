@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whole_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        style="@style/ruyiui_tobbar_layout" >
+
+        <ImageButton
+            android:id="@+id/cancel"
+            style="@style/ruyiui_tobbar_imagebutton" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topbar_middle"
+            android:text="@string/edit_title" />
+
+        <ImageButton
+            android:id="@+id/edit"
+            style="@style/ruyiui_tobbar_imagebutton_right"
+            android:src="@drawable/button_edit" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#BEBEBE" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/ruyi_margin"
+            android:paddingTop="@dimen/ruyi_margin" >
+
+            <ImageView style="@style/ruyiui_personal_horizontal_divider" />
+
+            <LinearLayout style="@style/ruyiui_personal_item_layout" >
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/ruyiui_personal_info_key"
+                    android:text="@string/setting_name"
+                    android:textColor="@color/listview_bottom_hint" />
+
+                <ImageView style="@style/ruyiui_personal_vertical_divider" />
+
+                <TextView
+                    android:id="@+id/info_name"
+                    style="@style/ruyiui_personal_info_key"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <ImageView style="@style/ruyiui_personal_horizontal_divider" />
+
+            <LinearLayout style="@style/ruyiui_personal_item_layout" >
+
+                <TextView
+                    android:id="@+id/sex"
+                    style="@style/ruyiui_personal_info_key"
+                    android:text="@string/personal_setting_sex"
+                    android:textColor="@color/listview_bottom_hint" />
+
+                <ImageView style="@style/ruyiui_personal_vertical_divider" />
+
+                <TextView
+                    android:id="@+id/info_sex"
+                    style="@style/ruyiui_personal_info_key"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <ImageView style="@style/ruyiui_personal_horizontal_divider" />
+
+            <LinearLayout style="@style/ruyiui_personal_item_layout" >
+
+                <TextView
+                    android:id="@+id/age"
+                    style="@style/ruyiui_personal_info_key"
+                    android:text="@string/age"
+                    android:textColor="@color/listview_bottom_hint" />
+
+                <ImageView style="@style/ruyiui_personal_vertical_divider" />
+
+                <TextView
+                    android:id="@+id/info_age"
+                    style="@style/ruyiui_personal_info_key"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <ImageView style="@style/ruyiui_personal_horizontal_divider" />
+
+            <LinearLayout style="@style/ruyiui_personal_item_layout" >
+
+                <TextView
+                    android:id="@+id/mobile"
+                    style="@style/ruyiui_personal_info_key"
+                    android:text="@string/The_phone"
+                    android:textColor="@color/listview_bottom_hint" />
+
+                <ImageView style="@style/ruyiui_personal_vertical_divider" />
+
+                <TextView
+                    android:id="@+id/info_mobile"
+                    style="@style/ruyiui_personal_info_key"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <ImageView style="@style/ruyiui_personal_horizontal_divider" />
+
+            <LinearLayout style="@style/ruyiui_personal_item_layout" >
+
+                <TextView
+                    android:id="@+id/address"
+                    style="@style/ruyiui_personal_info_key"
+                    android:text="@string/address"
+                    android:textColor="@color/listview_bottom_hint" />
+
+                <ImageView style="@style/ruyiui_personal_vertical_divider" />
+
+                <TextView
+                    android:id="@+id/info_address"
+                    style="@style/ruyiui_personal_info_key"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <ImageView style="@style/ruyiui_personal_horizontal_divider" />
+
+            <LinearLayout style="@style/ruyiui_personal_item_layout" >
+
+                <TextView
+                    android:id="@+id/note"
+                    style="@style/ruyiui_personal_info_key"
+                    android:text="@string/note"
+                    android:textColor="@color/listview_bottom_hint" />
+
+                <ImageView style="@style/ruyiui_personal_vertical_divider" />
+
+                <TextView
+                    android:id="@+id/info_note"
+                    style="@style/ruyiui_personal_info_key"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <ImageView style="@style/ruyiui_personal_horizontal_divider" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MainUIDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="my_local">我的位置</string>
+    <string name="parents_local">家人位置</string>
+    <string name="movement">卡布看护</string>    
+    <string name="remote_control">远程控置</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>     
+ 
+</resources>

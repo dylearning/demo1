@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:background="#f3f3f3" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <LinearLayout
+            android:id="@+id/tab_bottom_layout_parents_local"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <ImageButton
+                android:id="@+id/tab_bottom_btn_parents_local"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="false"
+                android:background="#f3f3f3"
+                android:src="@drawable/main_tab_button_parents_local_pressed"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#5f6971"
+                android:layout_height="wrap_content"
+                android:text="@string/parents_local" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_bottom_layout_movement"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_bottom_btn_movement"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#f3f3f3"
+                android:clickable="false" 
+                android:src="@drawable/main_tab_button_movement_normal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#5f6971"
+                android:layout_height="wrap_content"
+                android:text="@string/movement" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_bottom_layout_remote_control"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_bottom_btn_remote_control"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="false"
+                android:background="#f3f3f3"
+                android:src="@drawable/main_tab_button_remote_control_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#5f6971"
+                android:layout_height="wrap_content"
+                android:text="@string/remote_control" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_bottom_layout_setting"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_bottom_btn_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="false" 
+                android:background="#f3f3f3"
+                android:src="@drawable/main_tab_button_setting_normal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#5f6971"
+                android:layout_height="wrap_content"
+                android:text="@string/settings" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/tab_bottom_layout_about"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_bottom_btn_about"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:clickable="false" 
+                android:background="#f3f3f3"
+                android:src="@drawable/main_tab_button_about_normal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#5f6971"
+                android:layout_height="wrap_content"
+                android:text="@string/about" />
+        </LinearLayout>        
+    </LinearLayout>
+
+</RelativeLayout>

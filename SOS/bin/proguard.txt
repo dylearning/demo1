@@ -1,0 +1,58 @@
+# view AndroidManifest.xml #generated:134
+-keep class cn.waps.d248.DemoApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class cn.waps.extend.AppWall { <init>(...); }
+
+# view res/layout/slidewall.xml #generated:9
+-keep class cn.waps.extend.SlideWallDrawer { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.baidu.location.f { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.dream.sos.CopyContactsList { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.dream.sos.DemoApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.dream.sos.LocationOverlayDemo { <init>(...); }
+
+# view res/layout/activity_locationoverlay.xml #generated:34
+-keep class com.dream.sos.MyLocationMapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.dream.sos.SOSMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.dream.sos.SOSNumberSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.dream.sos.SOSPersonal { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.dream.sos.SOSPersonalEdit { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.dream.sos.SOSSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.dream.sos.SOSShowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.dream.sos.SOSSmsContentSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.dream.sos.SOSSmsNumberSetting { <init>(...); }
+
+# view res/layout/activity_locationoverlay.xml #generated:7
+# view res/layout/edit_info.xml #generated:10
+# view res/layout/sos_main.xml #generated:10
+# view res/layout/sos_number_setting.xml #generated:9
+# view res/layout/sos_setting_main.xml #generated:10
+# view res/layout/sos_show.xml #generated:10
+# view res/layout/sos_sms_content_setting.xml #generated:10
+# view res/layout/sos_sms_number_setting.xml #generated:9
+-keep class com.dream.sos.widget.TopBar { <init>(...); }
+

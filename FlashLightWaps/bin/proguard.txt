@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:46
+-keep class cn.waps.d248.DemoApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class cn.waps.extend.AppWall { <init>(...); }
+
+# view res/layout/slidewall.xml #generated:9
+-keep class cn.waps.extend.SlideWallDrawer { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.dream.flashlight.FlashLight { <init>(...); }
+
+# view res/layout/activity_flash_light.xml #generated:22
+-keep class com.dream.flashlight.FlashLightSwitch { <init>(...); }
+
